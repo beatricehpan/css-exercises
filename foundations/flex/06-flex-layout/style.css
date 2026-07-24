@@ -20,6 +20,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
 }
 
 input {
@@ -39,9 +40,11 @@ ul {
   margin: 0px;
   padding: 0px;
   display: flex;
+  gap: 16px;
 }
 
-.header, .footer {
+.header,
+.footer {
   display: flex;
   gap: 10px;
   padding: 16px;
@@ -55,15 +58,8 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 16px;
+  flex: 1;
+  justify-content: center;
 }
 
-.left-links, .right-links {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-}
-
-button {
-  padding: 12px;
-}
